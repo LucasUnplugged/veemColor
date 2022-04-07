@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Veem Code Test Showcase</title>
+        <meta name="description" content="Showcase of Veem code test module">
+        <script type="text/javascript" src="lib/veemColor.js"></script>
+    </head>
+    <body>
+        <div id="sample-div" style="width: 300px; height: 300px"></div>
+        <script>
+            // Minimalist usage, based on requirements
+            veemColor.cycle();
+
+            // Sample extended usage
+            var targetElement = document.getElementById('sample-div');
+            var cycles = 15;
+            var showLabel = true;
+            veemColor.cycle(targetElement, cycles, showLabel);
+        </script>
+    </body>
+</html>
